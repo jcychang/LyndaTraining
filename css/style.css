@@ -6,7 +6,7 @@ h4, h5, h6 {
 }
 li {
 	font-size: 80%;
-	line-height: 25px;
+	/*line-height: 25px;*/
 }
 a {
 	color: #990000;
@@ -19,8 +19,8 @@ blockquote p{
 
 /*Custom Button*/
 .btn-custom {
-	background: #fff;
-	color: #990000;
+	background: #990000;
+	color: #fff;
 }
 
 /*Rectangle Layout*/
@@ -41,7 +41,14 @@ blockquote p{
 	padding: 10% 5%;
 	text-align: left;
 }
-
+.red-rect-small {
+	background: #990000;
+	box-shadow: 3px 3px 2.5px #dddddd;
+	color: #fff;
+	/*height: 100%;*/
+	padding: 2.5% 0;
+	text-align: left;
+}
 .grey-rect {
 	background: #f6f6f6;
 	box-shadow: 3px 3px 2.5px #dddddd;
@@ -49,6 +56,14 @@ blockquote p{
 	height: 100%;
 	line-height: 21px;
 	padding: 7.5%;
+}
+.grey-rect-small {
+	background: #f6f6f6;
+	box-shadow: 3px 3px 2.5px #dddddd;
+	color: #000;
+	/*height: 100%;*/
+	line-height: 21px;
+	padding: 5% 0;
 }
 
 /*Footer*/
