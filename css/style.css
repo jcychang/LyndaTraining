@@ -1,0 +1,65 @@
+/*Custom Typography*/
+h4, h5, h6 {
+	font-weight: normal;
+}
+li {
+	font-size: 80%;
+	line-height: 25px;
+}
+a {
+	color: #D72225;
+	text-decoration: none;
+}
+
+/*Custom Button*/
+.btn-custom {
+	background: #fff;
+	color: #D72225;
+}
+
+/*Rectangle Layout*/
+.custom-img {
+	box-shadow: 3px 3px 2.5px #dddddd;
+}
+.banner-img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+.red-rect {
+	background: #D72225;
+	box-shadow: 3px 3px 2.5px #dddddd;
+	color: #fff;
+	height: 100%;
+	line-height: 21px;
+	padding: 10% 5%;
+	text-align: left;
+}
+
+.grey-rect {
+	background: #f6f6f6;
+	box-shadow: 3px 3px 2.5px #dddddd;
+	color: #000;
+	height: 100%;
+	line-height: 21px;
+	padding: 7.5%;
+}
+
+/*Footer*/
+.footer {
+	padding: 2.5%;
+	text-align: center;
+}
+.footer span {
+	font-size: 80%;
+}
+
+/*Media queries*/
+/*@media screen and (max-width: 767px) {
+	.red-rect {
+		margin-bottom: 1em 0;
+	}
+	.grey-rect {
+		margin-bottom: 1em 0;
+	}
+}*/
